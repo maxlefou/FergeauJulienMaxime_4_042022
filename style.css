@@ -18,6 +18,14 @@ a:hover {
     cursor: pointer;
 }
 
+.header-icon {
+    width:128px;
+    height: 128px;
+    background-color: white;
+    border-radius: 4.25em;
+    padding: 0.75em;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -831,11 +839,12 @@ h1 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
+    background-size: cover !important;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 footer {
