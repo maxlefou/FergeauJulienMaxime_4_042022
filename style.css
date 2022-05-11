@@ -863,6 +863,11 @@ footer a:hover {
     color: rgb(150, 150, 150) !important;
 }
 
+/* ggogle maps */
+iframe {
+    width: 100%;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
