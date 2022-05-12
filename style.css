@@ -1,3 +1,6 @@
+/**
+* GLOBAL
+*/
 body {
     margin: 0;
     padding: 0;
@@ -18,6 +21,70 @@ a:hover {
     cursor: pointer;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+.btn,
+a {
+    font-family: "helvetica";
+    font-weight: 400;
+    color: rgb(32, 32, 32) !important;
+}
+
+.h1 {
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(32, 32, 32) !important;
+}
+
+/*p {
+    font-size: 11px;
+}*/
+
+footer {
+    background-color: #794e3a !important;
+}
+
+footer h3 {
+    color: white !important;
+}
+
+footer h4 {
+    color: white !important;
+}
+
+footer a {
+    color: rgb(255, 255, 255) !important;
+}
+
+footer a:hover {
+    color: rgb(150, 150, 150) !important;
+}
+
+/* google maps */
+iframe {
+    width: 100%;
+}
+
+/**
+* Header
+*/
 .header-icon {
     width:128px;
     height: 128px;
@@ -26,6 +93,9 @@ a:hover {
     padding: 0.75em;
 }
 
+/**
+* blocs.js
+*/
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -35,6 +105,9 @@ a:hover {
     background: white url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/**
+* Blocks
+*/
 .bloc {
     width: 100%;
     clear: both;
@@ -296,6 +369,9 @@ blockquote cite {
     font-size: 32px;
 }
 
+/** 
+* navbar
+*/
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -369,47 +445,6 @@ blockquote cite {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: rgb(64, 64, 64);
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
 }
 
 .nav > li > .dropdown a {
@@ -539,6 +574,9 @@ button {
     opacity: 1;
 }
 
+/**
+* Lightbox
+*/
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -648,25 +686,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: rgb(32, 32, 32)!important;
-}
-
-footer h3 {
-    color: white !important;
-}
-
 .text-shadow {
     text-shadow: black 0 0 5px;
 }
@@ -693,19 +712,11 @@ footer h3 {
     margin: auto auto auto auto;
 }
 
-/*p {
-    font-size: 11px;
-}*/
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
 
 .cta-hero {
     margin-top: 22px;
@@ -727,18 +738,6 @@ footer h3 {
     color: white;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: rgb(32,32,32) !important;
-}
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -748,10 +747,6 @@ h3 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
-}
-
-.white {
-    color: white !important;
 }
 
 .portfolio-thumb {
@@ -789,7 +784,7 @@ h3 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.white, .tc-white, .ltc-white {
     color: white !important;
 }
 
@@ -805,10 +800,6 @@ h3 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: rgb(64,64,64)!important;
-}
-
-.ltc-white {
-    color: #FFFFFF!important;
 }
 
 .ltc-white:hover {
@@ -828,6 +819,9 @@ h3 {
     border-color: #364577!important;
 }
 
+/**
+* Background images
+*/
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
@@ -845,25 +839,55 @@ h3 {
     background-image: url("img/image-de-presentation.webp");
 }
 
-footer {
-    background-color: #794e3a !important;
-}
+/**
+* Media queries
+*/
+@media (min-width: 768px) {
+    .site-navigation {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        -webkit-transform: translateY(-50%);
+    }
 
-footer h4 {
-    color: white!important;
-}
+    .nav>li .dropdown-menu a,
+    .nav>li .dropdown-menu a:hover {
+        color: rgb(64, 64, 64);
+    }
 
-footer a {
-    color: rgb(255, 255, 255) !important;
-}
+    .nav-invert .site-navigation {
+        left: 0;
+        right: 0;
+    }
 
-footer a:hover {
-    color: rgb(150, 150, 150) !important;
-}
+    .nav-center {
+        text-align: center;
+    }
 
-/* ggogle maps */
-iframe {
-    width: 100%;
+    .nav-center .navbar-header {
+        width: 100%;
+    }
+
+    .nav-center .navbar-header,
+    .nav-center .navbar-brand,
+    .nav-center .nav>li {
+        float: none;
+        display: inline-block;
+    }
+
+    .nav-center .site-navigation {
+        position: relative;
+        width: 100%;
+        right: 0;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .nav-center.mini-nav .navbar-toggle {
+        float: none;
+        margin: 10px auto 0;
+    }
 }
 
 @media (max-width: 1024px) {
