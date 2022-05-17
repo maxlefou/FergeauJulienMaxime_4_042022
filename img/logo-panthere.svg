@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    data-v-423bf9ae=""
-   viewBox="0 0 120.98566 100.00001"
+   viewBox="0 0 161.63582 163.3564"
    class="iconLeftSlogan"
    version="1.1"
    id="svg50"
    sodipodi:docname="logo-panthere.svg"
-   width="120.98566"
-   height="100.00001"
+   width="161.63582"
+   height="163.3564"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -28,13 +28,13 @@
      fit-margin-right="5"
      fit-margin-bottom="5"
      inkscape:zoom="2.5491803"
-     inkscape:cx="178.48875"
-     inkscape:cy="49.231511"
-     inkscape:window-width="1920"
-     inkscape:window-height="1086"
-     inkscape:window-x="0"
-     inkscape:window-y="32"
-     inkscape:window-maximized="1"
+     inkscape:cx="78.652734"
+     inkscape:cy="81.006432"
+     inkscape:window-width="1561"
+     inkscape:window-height="976"
+     inkscape:window-x="249"
+     inkscape:window-y="79"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg50" />
   <!---->
   <!---->
@@ -46,9 +46,9 @@
        data-v-423bf9ae=""
        gradientTransform="scale(1.1104835,0.90050869)"
        id="1c9e5e94-8daa-4b90-953d-5ec5a7b7c461"
-       x1="3.7541464"
+       x1="3.7541463"
        y1="14.280817"
-       x2="86.340802"
+       x2="86.340805"
        y2="14.280817"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -63,10 +63,19 @@
          id="stop7" />
     </linearGradient>
   </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:21.6448"
+     id="rect863"
+     width="151.63582"
+     height="153.3564"
+     x="5"
+     y="5"
+     rx="67.854996"
+     ry="72.057495" />
   <g
      data-v-423bf9ae=""
      id="97221fff-9f5f-45e5-b2fa-fe4d6ef25df3"
-     transform="matrix(1.2101655,0,0,1.2101655,-0.04507994,-10.562728)"
+     transform="matrix(1.2101655,0,0,1.2101655,19.999203,21.212392)"
      stroke="none"
      fill="url(#1c9e5e94-8daa-4b90-953d-5ec5a7b7c461)"
      style="fill:url(#1c9e5e94-8daa-4b90-953d-5ec5a7b7c461)">
