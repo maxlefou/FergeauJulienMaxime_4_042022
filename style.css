@@ -57,6 +57,9 @@ h3 {
     font-size: 11px;
 }*/
 
+/*
+** Footer
+*/
 footer {
     background-color: #794e3a !important;
 }
@@ -75,6 +78,12 @@ footer a {
 
 footer a:hover {
     color: rgb(150, 150, 150) !important;
+}
+
+.footer-list {
+    list-style: none;
+    margin-left: -40px;
+    color: white;
 }
 
 /* google maps */
@@ -730,12 +739,6 @@ a[data-lightbox]:hover img {
     margin: auto auto 2em auto;
 }
 
-.footer-list {
-    list-style: none;
-    margin-left: -40px;
-    color: white;
-}
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -911,13 +914,13 @@ a[data-lightbox]:hover img {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -935,10 +938,10 @@ a[data-lightbox]:hover img {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /*.bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    }*/
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -947,8 +950,8 @@ a[data-lightbox]:hover img {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1088,6 +1091,9 @@ a[data-lightbox]:hover img {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .footer-list {
+        margin-left: -30px;
     }
 }
 
